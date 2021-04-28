@@ -7,11 +7,13 @@ Assignment: 4A
 
 # Initialize the TargetNotFound class that initializes a new message as a parameter
 class TargetNotFound(Exception):
-    def __init__(self, new_message):
-        self.message = new_message
+    pass
 
-    def __str__(self):
-        return self.message
+    # def __init__(self, new_message):
+    #     self.message = new_message
+    #
+    # def __str__(self):
+    #     return self.message
 
 
 # Binary search function that returns the index of the target variable from the list
